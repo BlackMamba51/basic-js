@@ -20,5 +20,5 @@ export default function getCommonCharacterCount( s1, s2 ) {
     	}
     }
   }
-  return count;
+  return Math.round(count);
 }
